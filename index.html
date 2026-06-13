@@ -312,7 +312,7 @@
                         let isEliminated = false;
                         if (rawName.includes('/ELIM')) {
                             isEliminated = true;
-                            displayName = rawName.replace('/EX', '').trim();
+                            displayName = rawName.replace('/ELIM', '').trim();
                         }
                         const li = document.createElement('li');
                         li.className = 'member-item';
